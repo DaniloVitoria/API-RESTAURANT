@@ -1,6 +1,6 @@
 import http from "node:http"
 
-import { url } from "node:inspector"
+
 import { jsonBodyHandler } from "./middlewares/jsonBodyHandler.js"
 import { routeHandler } from "./middlewares/routeHandler.js"
 
