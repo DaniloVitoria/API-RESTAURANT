@@ -1,8 +1,9 @@
 import express, { Request, Response, NextFunction } from "express"
+import "express-async-errors"
 
 import { routes } from "./routes"
 
-const PORT = 3333
+const PORT = 3000
 const app = express()
 
 app.use(express.json())
